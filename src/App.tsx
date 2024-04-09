@@ -3,6 +3,7 @@ import { CarouselDemo } from './client/components/CarouselDemo'
 import { ModeToggle } from './client/components/ModeToggle'
 import { ThemeProvider } from './client/components/ThemeProvider'
 import { Button } from './client/components/ui/button'
+import { Calendar } from './client/components/ui/calendar'
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
 
         <div className="flex justify-center">
           <CarouselDemo />
+        </div>
+        <div>
+          <Calendar />
         </div>
       </main>
     </ThemeProvider>
